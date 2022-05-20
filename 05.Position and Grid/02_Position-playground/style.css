@@ -1,0 +1,23 @@
+.viewport:nth-child(1) {
+    background-color: blue;
+    width: 100%;
+    top: 2fr;
+    position: relative;
+}
+
+.viewport:nth-child(2) {
+    background-color: green;
+    width: 100%;
+    position: relative;
+}
+
+
+.card {
+    display: block;
+    position: absolute;
+}
+
+image {
+    width: 30%;
+    height: 50%;
+}
