@@ -1,0 +1,16 @@
+body {
+    background-color: rgb(238, 238, 238);
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 102, 0);
+}
+
+img {
+    background-color: rgb(255, 255, 255);
+}
+
+blockquote {
+    font-family: Georgia, serif;
+}
