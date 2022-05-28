@@ -1,0 +1,49 @@
+div.container {
+    display: flex;
+    align-items: center;
+
+    max-width: 65vw;
+    height: 80px;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+span {
+    border: 1px solid black;
+}
+
+section.week {
+    width: 50vw;
+}
+
+section.week span:first-of-type,
+section.week span:nth-of-type(7) {
+    width: 100%;
+}
+
+section.week span:nth-of-type(2),
+section.week span:nth-of-type(3),
+section.week span:nth-of-type(4),
+section.week span:nth-of-type(5),
+section.week span:nth-of-type(6) {
+    width: 19.7%;
+}
+
+section.week span:nth-of-type(8),
+section.week span:nth-of-type(9) {
+    width: 49.7%;
+}
+
+section.notes {
+    flex-direction: column;
+    width: auto;
+    height: 100%;
+}
+
+html {
+    box-sizing: border-box;
+}
