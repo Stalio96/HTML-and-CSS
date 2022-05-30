@@ -1,0 +1,59 @@
+body {
+    background-color: rgb(238, 238, 238);
+    padding: 25%;
+}
+
+div.card-layout {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.masonry {
+    width: 200px;
+    background-color: white;
+    margin: 10px;
+    border: 1px solid gray;
+}
+
+.masonry img {
+    width: 100%;
+}
+
+.masonry footer {
+    border-top: 1px solid black;
+}
+
+.masonry p,
+.masonry h3,
+.masonry footer {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.card-layout.second {
+    display: flex;
+    
+    /* flex-flow: column nowrap; */
+}
+
+.card {
+    display: flex;
+}
+
+.flex {
+    width: 30%;
+    background-color: white;
+    margin: 10px;
+    border: 1px solid gray;
+    flex-flow: column nowrap;
+    height: auto;
+}
+
+.flex img {
+    width: 100%;
+}
+
+h2 {
+    width: 100%;
+}
