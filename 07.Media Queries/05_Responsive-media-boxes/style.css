@@ -1,0 +1,45 @@
+html {
+    font-family: Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgb(238, 238, 238);
+}
+
+.card {
+    background-color: rgb(255, 255, 255);
+
+    width: 500px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    /* vertical-align: middle; */
+
+    /* position: relative; */
+}
+
+p,
+h3 {
+    margin-left: 20px;
+}
+
+h3 {
+    font-family: Georgia, serif;
+    font-size: 1em;
+}
+
+a {
+    text-decoration: none;
+    background-color: rgb(0, 153, 0);
+    padding: 10px 15px;
+    border-radius: 4px;
+    color: white;
+    
+    margin-left: 390px;
+}
+
+img {
+    /* position: absolute; */
+    width: 100%;
+}
