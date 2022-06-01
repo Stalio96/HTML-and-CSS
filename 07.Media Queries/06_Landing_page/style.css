@@ -1,0 +1,83 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css');
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+header div {
+    position: relative;
+}
+
+header div p {
+    position: absolute;
+    font-size: 11px;
+    top: 47px;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+section {
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    position: relative;
+    /* align-items: baseline; */
+    margin: 50px 370px;
+}
+
+.website {
+    display: flex;
+    flex-direction: column;
+}
+
+i {
+    float: right;
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top: 20px;
+    left: 650px;
+}
+
+.team {
+    display: flex;
+    gap: 90px;
+    flex-wrap: wrap;
+}
+
+.team li {
+    width: 80px;
+    height: 100px;
+    list-style: none;
+    text-align: center;
+    font-size: 0.5rem;
+}
+
+.team li img {
+    width: 100%;
+    border-radius: 100%;
+}
+
+section.signUp {
+    margin-top: 80px;
+    background-color: blueviolet;
+    display: block;
+    /* width: 100%; */
+    text-align: center;
+    padding: 15px 5px;
+}
