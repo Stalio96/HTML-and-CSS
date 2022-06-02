@@ -1,0 +1,32 @@
+table {
+    border: 2px solid black;
+    text-align: left;
+}
+
+thead {
+    background-color: blueviolet;
+}
+
+tbody {
+    background-color: crimson;
+}
+
+th {
+    width: 200px;
+    height: 25px;
+}
+
+td {
+    height: 25px;
+}
+
+@media (max-width: 600px) {
+    th {
+        display: block;
+        background-color: aqua;
+    }
+
+    td {
+        display: inline-block;
+    }
+}
