@@ -1,0 +1,230 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css');
+@import url('./reset.css');
+@import url('./components.css');
+@import url('./navigation.css');
+@import url('./footer.css');
+@import url('./typography.css');
+
+
+:root {
+    --color-primary: #9d62c6;
+    --color-blue: #14162b;
+    --color-gray: #545470;
+    --color-gray-dark: #54556c;
+    --color-white: #fff;
+    --color-footer: #2d2c3a;
+    --color-lupa: #616179;
+
+    --shadow-base: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+        0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    --shadow-large: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+        0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    --navi-height: 58px;
+}
+
+main {
+    margin-top: var(--navi-height);
+}
+
+.overlay-circle {
+    display: none;
+}
+
+/* General section ------------- */
+.general--section {
+    padding: 2.5rem 1rem;
+}
+
+.general--section .info {
+    margin-bottom: 2.5rem;
+}
+
+.general--section .info__title {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+.general--section .info__desc {
+    text-align: justify;
+    margin-bottom: 1rem;
+}
+
+.general--section .info__comment {
+    font-style: italic;
+    color: var(--color-gray);
+}
+
+.general--section .info__comment:last-child {
+    margin-top: 0.5rem;
+}
+
+.general--section img {
+    width: 100%;
+}
+
+/* Certificates section ------------- */
+
+.certificates-wrapper {
+    background-color: var(--color-blue);
+}
+
+.certificates {
+    color: var(--color-white);
+    position: relative;
+}
+
+.certificates::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    height: 15%;
+    width: 100%;
+    background-color: var(--color-white);
+}
+
+.certificates .info,
+.certificates .img {
+    position: relative;
+    z-index: 1;
+}
+
+/* Career section ------------- */
+.general--section.career {
+    padding-top: 0;
+}
+
+@media screen and (min-width: 640px) {
+    .general--section img {
+        width: 70%;
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .general--section {
+        padding: 4rem 4rem;
+    }
+
+    .general--section img {
+        width: 70%;
+    }
+
+    .certificates::after {
+        height: 18%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .general--section {
+        padding: 3rem 2rem;
+
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+        position: relative;
+
+    }
+
+    .general--section .info {
+        margin-bottom: 0;
+    }
+
+    .general--section img {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .general--section .info__title {
+        text-align: left;
+    }
+
+    .general--section .info__desc {
+        margin-bottom: 0;
+        text-align: left;
+    }
+
+    .diplomas .img {
+        z-index: 1;
+    }
+
+    /* Certificates ------ */
+    .certificates .info {
+        width: calc(100% - (380px + 2rem));
+    }
+
+    .certificates .img {
+        position: absolute;
+        top: 3rem;
+        right: 2rem;
+        width: 380px;
+        max-width: unset;
+    }
+
+    .certificates::after {
+        display: none;
+    }
+
+    /* Career ------ */
+    .general--section.career {
+        padding-top: 4rem;
+        flex-direction: row-reverse;
+    }
+
+    .career .btn {
+        margin-top: 0.5rem;
+    }
+
+    .diplomas {
+        overflow: hidden;
+    }
+
+    /* Circle ------ */
+    .overlay-circle {
+        display: block;
+        position: absolute;
+        width: 30vw;
+        height: 30vw;
+        background-color: var(--color-gray);
+        right: -10%;
+        top: -5%;
+        border-radius: 100%;
+    }
+
+    .overlay-circle > i {
+        color: var(--color-lupa);
+
+        position: absolute;
+        top: 60%;
+        left: 55%;
+        transform: translate(-50%, -50%);
+        font-size: 150px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .general--section {
+        padding: 4rem;
+    }
+
+    .general--section img {
+        width: 100%;
+        max-width: 400px;
+    }
+}
+
+@media screen and (min-width: 1310px) {
+    .general--section {
+        padding: 6rem 4rem;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .general--section {
+        max-width: 1400px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
