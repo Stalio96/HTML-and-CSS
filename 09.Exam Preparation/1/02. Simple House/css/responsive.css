@@ -1,0 +1,73 @@
+/* TODO: Add the responsive styles here */
+@media screen and (max-width: 600px) {
+    body {
+        width: unset;
+        max-width: 600px;
+    }
+
+    main {
+        max-width: 600px;
+    }
+
+
+    .simple-house-header {
+        width: 100%;
+    }
+
+    .tm-nav-ul {
+        margin-left: 550px;
+        font-size: 22px;
+    }
+
+    .tm-section-title {
+        font-weight: 1000;
+        font-size: 40px;
+        margin-left: unset;
+        margin: 0 auto 30px;
+        width: 80%;
+    }
+
+    .tm-welcome-section {
+        font-size: 27px;
+    }
+
+    .tm-paging-item {
+        padding: 12px 30px;
+        font-size: 20px;
+    }
+    
+    .tm-paging-item:first-of-type {
+        background-color: #2f956d;
+    }
+
+    .tm-gallery {
+        margin-left: unset;
+        margin: 0 auto;
+    }
+
+    .tm-gallery-page {
+        margin-left: 150px;
+
+        /* justify-content: center; */
+    }
+
+    .tm-gallery-item {
+        max-width: unset;
+        width: 350px;
+    }
+
+    .tm-gallery-img {
+        width: 100%;
+    }
+
+    .row {
+        flex-direction: column;
+        width: 600px;
+        margin-left: -15px;
+    }
+
+    /* .tm-container-inner {
+        display: flex;
+        flex-direction: column;
+    } */
+}
