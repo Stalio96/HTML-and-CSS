@@ -1,0 +1,46 @@
+.care{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    margin-top: 200px;
+    margin-left: -100px;
+}
+
+.care__container {
+    width: 30%;
+    margin-left: 100px;
+}
+
+.care__title {
+    font-family: 'Poppins', sans-serif;
+    color: #21263e;
+    font-size: 50px;
+}
+
+.care__title:first-of-type {
+    font-weight: 400;
+}
+
+.care__title:last-of-type {
+    font-weight: 700;
+    margin-top: -35px;
+}
+
+.care__text {
+    color: gray;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    line-height: 2;
+    margin-bottom: -35px;
+}
+
+.care__btn {
+    border: none;
+    border-radius: 20px;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(240,67,49,1) 0%, rgba(238,89,8,1) 93%);
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    padding: 10px 35px;
+    font-weight: 600;
+    margin-top: 40px;
+}

@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&family=Poppins:wght@300;400;600;900&display=swap');
+@import url('./contact.css');
+@import url('./care.css');
+@import url('./hero.css');
+@import url('./service.css');
+@import url('./header.css');
+
+body {
+    background-color: #f8f8f8;
+
+}
+
+.footer {
+    margin: 100px 0px;
+    display: flex;
+    justify-content: center;
+    padding-top: 0px;
+    gap: 30px;
+}
+
+.footer__title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #2c2c2c;
+}
+
+.footer__text {
+    font-family: 'Open Sans', sans-serif;
+    color: gray;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.footer__container {
+    width: 250px;
+}
+
+.footer__container:last-of-type {
+    padding-top: 20px;
+}
