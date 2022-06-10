@@ -1,0 +1,87 @@
+/* TODO: Add responsive styles here... */
+@media screen and (max-width: 600px) {
+    .container-fluid img {
+        display: none;
+    }
+
+    .navbar-nav {
+        display: none;
+    }
+
+    .navbar {
+        justify-content: center;
+    }
+
+    a.navbar-brand img {
+        width: 100px;
+        text-align: center;
+    }
+
+    section.container-fluid.hero {
+        margin-top: -200px;
+        text-align: center;
+    }
+
+    article.container p {
+        font-size: 1.15rem;
+    }
+
+    .hero-btns a {
+        display: block;
+        margin: 0 auto;
+        width: 60%;
+    }
+
+    section#about-us {
+        margin-top: -130px;
+    }
+
+    div.col-12 {
+        text-align: center;
+    }
+
+    div.hero-btns.service-btn {
+        margin-bottom: 100px;
+    }
+
+    div.service-box img {
+        display: block;
+    }
+
+    div.service-box {
+        text-align: left;
+    }
+
+    .col-sm-6 {
+        flex: unset;
+        max-width: unset;
+        margin: 5px 30px;
+    }
+
+    div.col-12 img {
+        margin-bottom: 90px;
+    }
+
+    div.col-12 h5{
+        font-size: 20px;
+    }
+
+    div.col-12.col-sm-12 p {
+        font-weight: 600;
+        font-size: 20px;
+    }
+
+    .hero-btns.contact-btn a {
+        display: none;
+    }
+
+    footer .col-12 h3 {
+        width: 300px;
+        display: block;
+        margin: 20px auto;
+    }
+
+    .contact-nav li {
+        display: block;
+    }
+}
