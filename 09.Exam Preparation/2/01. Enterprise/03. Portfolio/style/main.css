@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&family=Raleway:wght@200;300;400;500;600;700;800;900&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css');
+@import url('./hero.css');
+@import url('./photographer.css');
+
+
+html {
+    font-family: 'Raleway';
+}
+
+article {
+    margin: 20px;
+}
+
+.hero.girl {
+    padding-left: unset;
+    height: 85vh;
+    overflow: hidden;
+}
+
+.hero.girl img {
+    width: 106%;
+    height: 85vh;
+}
+
+.container.bridge {
+    padding-top: unset;
+
+    padding: 70px 0px;
+
+    display: flex;
+    align-items: center;
+}
+
+.hero__img.bridge {
+    width: 700px;
+}
+
+.hero.images {
+    padding-left: unset;
+    height: 85vh;
+    position: relative;
+}
+
+.photo__images {
+    position: absolute;
+}
+
+.photo__images.first,
+.photo__images.third {
+    width: 450px;
+    top: 50%;
+    transform: translate(0%, -50%);
+}
+
+.photo__images.second {
+    width: 600px;
+    z-index: 1;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.photo__images.third {
+    right: 160px;
+}
+
+.photo__images.first {
+    left: 160px;
+}
+
+/* last ---------------- */
+
+.hero.form {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+
+}
+
+.form__container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 900px;
+    margin-left: 220px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    margin-bottom: -20px;
+    margin-top: 50px;
+    gap: 10px;
+    font-size: 25px;
+}
+
+.form__title:last-of-type {
+    font-weight: 200;
+}
+
+.form__text {
+    font-family: serif;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+}
+
+form input {
+    display: inline;
+    margin: 20px 15px;
+    border: 2px solid black;
+    padding: 10px 10px;
+    width: 225px;
+
+    background-color: #efefef;
+}
+
+form textarea {
+    display: block;
+    margin: 0px auto;
+    width: 510px;
+    margin-bottom: 20px;
+    border: 2px solid black;
+    padding: 10px 10px;
+    background-color: #efefef;
+    color: black;
+}
+
+form button {
+    margin-bottom: 100px;
+    padding: 10px;
+    width: 530px;
+    background-color: black;
+    color: white;
+    font-family: 'Raleway';
+    font-weight: 600;
+}

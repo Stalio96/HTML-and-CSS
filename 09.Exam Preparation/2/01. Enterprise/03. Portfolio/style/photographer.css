@@ -1,0 +1,46 @@
+.container.photographer{
+    display: flex;
+    align-items: center;
+    padding-top: unset;
+    padding: 70px 0px;
+}
+
+.hero__img.photographer {
+    width: 450px;
+    margin-right: 70px;
+}
+
+.hero__container .hero__title.photographer:first-of-type {
+    font-weight: 200;
+    margin-right: 10px;
+    display: inline;
+}
+
+.hero__container .hero__title.photographer:last-of-type {
+    font-weight: 900;
+    display: inline;
+}
+
+.hero__container.photographer {
+    width: 600px;
+}
+
+/* .hero__container.photographer .hero__text {
+    
+} */
+
+.hero__social i {
+    margin-right: 20px;
+    margin-top: 40px;
+    background-color: #909090;
+    color: white;
+    padding: 8px 12px;
+}
+
+.line {
+    border-top: 2px solid black;
+    height: 12px;
+    display: inline-block;
+    width: 50px;
+    margin-right: 20px;
+}

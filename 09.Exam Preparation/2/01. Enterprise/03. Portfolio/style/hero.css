@@ -1,0 +1,61 @@
+.hero {
+    background-color: #efefef;
+    padding: 0 80px;
+    height: auto;
+}
+
+.menu {
+    float: right;
+    margin-top: 30px;
+    margin-right: -40px;
+    display: block;
+}
+
+.menu__link {
+    font-family: 'Raleway';
+    color: black;
+    text-decoration: none;
+    margin-right: 7px;
+}
+
+.hero .container {
+    display: flex;
+    align-items: center;
+    gap: 120px;
+    padding-top: 100px;
+}
+
+.hero__container {
+    width: 450px;
+}
+
+.hero__container .hero__title {
+    display: inline-block;
+    font-size: 40px;
+}
+
+.hero__container .hero__title:first-of-type {
+    font-weight: 900;
+}
+
+.hero__container .hero__title:last-of-type {
+    font-weight: 200;
+}
+
+.hero__container .hero__text {
+    font-family: serif;
+    font-style: italic;
+    font-size: 18px;
+    color: #383838;
+}
+
+.hero__img {
+    width: 50%;
+}
+
+.nothing {
+    border-left: 2px solid black;
+    height: 60px;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
