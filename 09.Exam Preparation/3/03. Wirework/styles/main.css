@@ -1,0 +1,71 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css');
+@import url('./navigation.css');
+@import url('./hero.css');
+@import url('./icons.css');
+
+.procedure {
+    background-color: white;
+    text-align: center;
+    padding: 70px;
+    font-family: 'Helvetica';
+}
+
+.procedure__title {
+    color: #555555;
+    font-weight: 500;
+    font-size: 33px;
+}
+
+.procedure__text {
+    color: #a2a2a2;
+    margin-top: -20px;
+    margin-bottom: 30px;
+}
+
+.procedure__btn {
+    background-color: #1b9772;
+    border: none;
+    color: white;
+    padding: 15px 40px;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+
+
+/* ======================== */
+
+.nothing {
+    background-color: #383838;
+}
+
+.nothing__items {
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 40px;
+}
+
+.nothing__item {
+    list-style: none;
+    width: 24%;
+    text-align: center;
+    color: white;
+    font-family: 'Helvetica';
+}
+
+.text {
+    margin-top: 50px;
+    color: #6a6a69;
+    line-height: 2;
+}
+
+/* =========================== */
+
+footer {
+    margin-top: -16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1b9772;
+    color: #54af8c;
+    height: 200px;
+}

@@ -1,0 +1,47 @@
+.icons {
+    background-color: #383838;
+    padding: 200px 30px 50px 30px;
+    font-family: 'Helvetica';
+}
+
+.icons__items {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.icons__item {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+
+.fa-solid {
+    background-color: #e24e2a;
+    text-align: center;
+    display: block;
+    width: 120px;
+    height: 120px;
+    color: white;
+    font-size: 80px;
+    padding: 20px 20px 0px 20px;
+    position: absolute;
+    top: -130px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.icons__item h2 {
+    color: white;
+    font-weight: 200;
+}
+
+.icons__item p {
+    border-top: 2px solid #484848;
+    padding-top: 15px;
+    margin-top: -5px;
+    color: #5d6666;
+}
