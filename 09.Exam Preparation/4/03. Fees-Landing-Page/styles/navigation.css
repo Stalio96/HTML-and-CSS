@@ -1,0 +1,29 @@
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    gap: 600px;
+    position: fixed;
+    background-color: white;
+    z-index: 1;
+    width: 100%;
+}
+
+.nav__items {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.nav__item {
+    list-style: none;
+    
+}
+
+.nav__item a {
+    text-decoration: none;
+    color: #56546d;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+}
