@@ -1,0 +1,99 @@
+@media screen and (max-width: 600px) {
+    .body {
+        width: 600px;
+    }
+    .banner {
+        height: 60vh;
+    }
+
+    .banner h2 {
+        max-width: unset;
+        width: 530px;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .banner p {
+        font-size: 22px;
+    }
+
+    .button special {
+        max-width: unset;
+        width: 530px;
+    }
+
+    .wrapper.special {
+       width: 600px;
+       padding-top: 25px;
+    }
+
+    .major {
+        margin-bottom: 0px;
+    }
+
+    .wrapper > .inner {
+        width: unset;
+    }
+
+    .features {
+        flex-direction: column;
+    }
+
+    .feature {
+        width: unset;
+    }
+
+    .inner.narrow {
+        width: unset;
+    }
+
+    .grid-form {
+        flex-direction: column;
+    }
+
+    .grid-form .form-control.narrow {
+        width: 90%;
+        margin-left: 6px;
+    }
+
+    article.form-control.narrow {
+        width: unset;
+    }
+
+    .grid-form .form-control {
+        width: 90%;
+        margin-left: 6px;
+        /* margin-bottom: unset; */
+    }
+
+    label {
+        width: 600px;
+    }
+
+    .actions li {
+        width: 100%;
+        margin-left: -55px;
+    }
+
+    .actions li input {
+        width: 90%;
+    }
+
+    .wrapper.style2.special {
+        margin-bottom: -60px;
+    }
+
+    .footer:before {
+        background-color: #ddd;
+        content: "";
+        height: 1px;
+        left: 5%;
+        position: absolute;
+        top: 0;
+        width: 90%;
+    }
+
+    .footer {
+        padding: 40px 0px 20px 0px;
+    }
+}
