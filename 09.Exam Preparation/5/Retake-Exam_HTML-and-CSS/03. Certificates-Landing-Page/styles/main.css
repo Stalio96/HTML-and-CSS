@@ -1,0 +1,121 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
+@import url('./header.css');
+@import url('./certificates.css');
+@import url('./diploma.css');
+
+
+.program {
+    background-image: url('../images/sign-up-prompt-background.jpg');
+
+    filter:saturate(20%);
+
+    margin: 0px 70px 70px 70px;
+
+    padding: 20px;
+
+    height: 220px;
+
+    border-radius: 10px;
+
+    z-index: 0;
+}
+
+.program__title {
+    text-align: center;
+    color: white;
+    font-family: 'Montserrat';
+    font-weight: 500;
+
+    z-index: 1000;
+}
+
+.program__text {
+    width: 800px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    font-family: 'Lato';
+}
+
+.program div {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.program div .btn {
+    padding: 10px 40px;
+    border-radius: 10px;
+
+    font-family: 'Lato';
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.program div .btn:first-of-type {
+    background-color: white;
+
+    border: none;
+
+    color: #42abf8;
+
+    margin-right: 20px;
+}
+
+.program div .btn:last-of-type {
+    border: 1px solid white;
+
+    margin-left: 20px;
+
+    background-color: unset;
+    color: white;
+}
+
+.line {
+    border: 1px solid white;
+    padding: 20px -1px;
+}
+
+/* --------------------- */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+
+    border-top: 1px solid #87909b;
+
+    margin: 0px 70px;
+
+    padding: 50px 0px;
+}
+
+footer div {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+footer p {
+    color: #d0d0d0;
+    font-family: 'Lato';
+}
+
+footer img {
+    width: 120px;
+}
+
+footer ul {
+    display: flex;
+    gap: 10px;
+}
+
+footer ul li {
+    list-style: none;
+    font-family: 'Lato';
+    font-weight: 500;
+    font-size: 18px;
+
+    color: #4a5767;
+}

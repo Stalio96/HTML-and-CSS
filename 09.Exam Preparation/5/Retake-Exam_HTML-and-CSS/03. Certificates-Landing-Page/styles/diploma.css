@@ -1,0 +1,28 @@
+.diploma {
+    padding: 150px 70px;
+}
+
+.diploma__title {
+    text-align: center;
+    font-family: 'Montserrat';
+    font-weight: 600;
+
+    font-size: 30px;
+
+    color: #465464;
+}
+
+.diploma__container {
+    margin-top: 50px;
+    background-color: #f4f5f7;
+
+    padding: 10px 20px 20px;
+}
+
+.diploma__text {
+    font-size: 18px;
+    font-family: 'Lato';
+    font-weight: 500;
+
+    color: #465464;
+}

@@ -1,0 +1,72 @@
+.certificates {
+    width: 98.7vw;
+    margin-left: -7px;
+    margin-top: -20px;
+    position: relative;
+}
+
+.certificates__back {
+    width: 100%;
+    /* background-color: white;
+    color: white; */
+    filter:opacity(10%);
+    position: absolute;
+    z-index: -1;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 50px;
+    padding-top: 160px;
+
+    margin-bottom: 30px;
+}
+
+.container div:first-of-type {
+    background-color: #29394b;
+
+    height: 320px;
+    width: 750px;
+
+    padding-left: 20px;
+    padding-right: 20px;
+
+    border-radius: 10px;
+}
+
+.certificates__title {
+    color: white;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 1.7rem;
+}
+
+.certificates__text {
+    color: white;
+    font-family: 'Lato';
+
+    font-size: 17px;
+}
+
+/* .container div:last-of-type {
+    display: flex;
+} */
+
+.container div:last-of-type img:first-of-type {
+    width: 180px;
+    margin-right: -5px;
+}
+
+.text {
+    font-family: 'Lato';
+    font-style: italic;
+
+    font-weight: 500;
+
+    font-size: 18px;
+
+    margin-left: 145px;
+}
