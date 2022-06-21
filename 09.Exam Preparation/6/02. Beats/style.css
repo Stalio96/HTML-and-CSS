@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Montserrat:wght@300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Navigation */
+.navigation {
+    margin-bottom: 100px;
+}
+
+.navigation__items {
+    height: 70px;
+}
+
+.navigation__items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+}
+
+.navigation__item {
+    list-style: none;
+}
+
+.navigation__link {
+    text-decoration: none;
+    color: #9d9d9d;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+/* Main landing */
+
+.headphones {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 110vh;
+}
+
+.wireless__img {
+    width: 45vw;
+    margin-right: -240px;
+}
+
+.wireless__container {
+    width: 450px;
+    margin-right: 50px;
+}
+
+.wireless__title {
+    font-weight: 200;
+    text-transform: uppercase;
+    font-size: 50px;
+}
+
+.wireless__text {
+    line-height: 30px;
+    margin-top: -20px;
+}
+
+.wireless__btn {
+    background-color: #ff0000;
+    color: white;
+    padding: 15px 50px;
+    border-radius: 50px;
+    border: none;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+/* Powerbeats */
+
+.powerbeats {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 100px;
+
+    height: 100vh;
+
+    background-color: #fbfcff;
+}
+
+.powerbeats__container {
+    width: 33vw;
+}
+
+.powerbeats__title {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 80px;
+}
+
+.normal {
+    margin-top: -70px;
+    margin-left: 200px;
+    margin-bottom: 50px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.powerbeats__text {
+    font-size: 19px;
+    line-height: 40px;
+}
+
+.price__container {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.price__text {
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.price__btn {
+    background-color: #ff0000;
+    color: white;
+    padding: 20px 60px;
+    border-radius: 50px;
+    border: none;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+/* Dre */
+
+.dre {
+    background-color: #575757;
+    height: 45vh;
+}
+
+.dre__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+
+    padding: 50px 0px;
+}
+
+.dre__text {
+    text-transform: uppercase;
+    color: white;
+    font-size: 40px;
+    font-weight: 300;
+}
+
+.dre__link {
+    color: white;
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding-bottom: 50px;
+}
+
+/* Landing */
+
+.landing {
+    display: flex;
+    height: 110vh;
+}
+
+.landing__img1 {
+    width: 50vw;
+}
+
+.landing__container {
+    width: 50vw;
+    background-color: #dadada;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.landing__img2 {
+    width: 270px;
+}
+
+.landing__text:not(:last-of-type) {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 150px;
+    letter-spacing: -16px;
+    margin: 0px 0px;
+    color: #333333;
+}
+
+.landing__text:last-of-type {
+    font-size: 50px;
+    padding-left: 10px;
+    font-weight: 300;
+    color: #333333;
+    letter-spacing: -5px;
+}
+
+.landing__text b {
+    text-transform: uppercase;
+    font-size: 60px;
+    color: #ff0000;
+}
+
+/* Footer */
+
+footer {
+    height: 12vh;
+}
+
+.text {
+    text-align: center;
+    margin-top: 40px;
+    color: #414141;
+    font-size: 40px;
+    font-weight: 300;
+}
