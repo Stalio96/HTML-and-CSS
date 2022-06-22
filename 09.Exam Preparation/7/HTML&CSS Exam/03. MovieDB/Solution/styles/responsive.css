@@ -1,0 +1,51 @@
+@media screen and (max-width: 414px) {
+    body header {
+        width: 100%;
+    }
+
+    h2 {
+        font-size: 26px;
+    }
+
+    .main-movie-poster {
+        display: none;
+    }
+
+    .main-movie-trailer {
+
+    }
+
+    iframe {
+        width: 410px;
+    }
+
+    .movies.trending {
+        width: 100%;
+    }
+
+    .movie-list {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .movie {
+        width: 90%;
+        height: auto;
+
+        padding-left: 50px;
+    }
+
+    .movies.classics {
+        width: 100%;
+    }
+
+    footer {
+        width: 100%;
+        margin-top: -180px;
+    }
+
+    /* .fa-2x {
+        font-size: 5em;
+    } */
+}
