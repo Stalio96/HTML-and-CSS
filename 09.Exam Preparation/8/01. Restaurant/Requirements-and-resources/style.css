@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Gelasio:wght@400;500;600;700&family=Lato:wght@300;400;700;900&family=Montserrat:wght@300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffd9b0;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.container {
+    background-color: #111111;
+    width: 60%;
+    height: 50%;
+
+    display: block;
+    margin: 50px auto;
+
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+
+    display: flex;
+}
+
+.img {
+    width: 60%;
+
+    margin-right: 50px;
+}
+
+.form__container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.input {
+    display: block;
+    margin: 30px auto;
+
+    width: 250px;
+
+    background-color: unset;
+
+    border: none;
+
+    border-bottom: 1px solid #9bb0a4;
+
+    text-align: left;
+
+    font-weight: 600;
+
+    padding-bottom: 5px;
+    padding-left: 0px;
+}
+
+.title {
+    color: white;
+
+    margin-top: 50px;
+
+    font-size: 16px;
+
+    font-weight: 500;
+}
+
+.btn {
+    background-color: #edb77d;
+    color: white;
+
+    font-weight: 500;
+
+    border: none;
+    border-radius: 5px;
+
+    padding: 10px 30px;
+
+    display: block;
+}
