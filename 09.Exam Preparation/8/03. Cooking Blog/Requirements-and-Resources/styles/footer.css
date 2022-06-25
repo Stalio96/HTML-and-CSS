@@ -1,0 +1,40 @@
+.foot {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    height: 100px;
+    width: 101%;
+
+    margin-left: -8px;
+
+    background-color: #d8d7ce;
+    top: 96%;
+    left: 0;
+
+    opacity: 90%;
+
+    position: absolute;
+}
+
+.foot__items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 25px;
+}
+
+.foot__item {
+    list-style: none;
+    padding-right: 25px;
+}
+
+.foot__item:not(:last-of-type) {
+    border-right: 1px solid #363837;
+}
+
+.link {
+    text-decoration: none;
+    color: #363837;
+}
