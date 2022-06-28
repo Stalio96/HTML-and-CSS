@@ -1,0 +1,103 @@
+@media screen and (max-width: 600px) {
+    main {
+        width: 153vw;
+    }
+
+    main .left-to-right article {
+        width: 500px;
+        height: 500px;
+
+        border-radius: 100px;
+
+        display: block;
+
+        margin: 0px auto;
+
+        padding: 30px 80px 100px 80px;
+    }
+
+    .left-to-right article {
+        font-size: 1.6rem;
+    }
+
+    .left-to-right article header p {
+        font-size: 25px;
+    }
+
+    .left-to-right article button {
+        display: none;
+    }
+
+    main section {
+        flex-direction: column;
+    }
+
+
+    /* Second section */
+
+    main section:nth-child(2) {
+        padding: 0px 50px;
+
+        font-size: 1.7rem;
+    }
+
+    header h1 {
+        font-size: 3.5rem;
+    }
+
+    header p {
+        font-size: 2rem;
+    }
+
+    main section:nth-child(2) button {
+        display: none;
+    }
+
+    main section:nth-child(2) article img {
+        width: 110%;
+    }
+
+
+    /* Third section */
+
+    main section.left-to-right:nth-child(3) {
+        height: 1360px;
+        
+    }
+
+    main .left-to-right article {
+        margin: 320px auto;
+
+        width: 510px;
+        height: 500px;
+
+        padding: 50px 80px 75px 80px;
+    }
+
+    /* Fourth section */
+
+    form {
+        width: 70%;
+        margin: 20px auto;
+
+        
+    }
+
+    section form label input {
+        width: 100%;
+        font-size: 1.8rem;
+        margin-top: 10px;
+    }
+
+    section form textarea {
+        width: 100%;
+        font-size: 1.8rem;
+        height: 200px;
+    }
+
+    form input[type="submit"] {
+        font-size: 2.2rem;
+        display: block;
+    }
+
+}
