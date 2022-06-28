@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Gelasio:wght@400;500;600;700&family=Lato:wght@300;400;700;900&family=Montserrat:wght@300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    background-color: black;
+
+    padding: 0px 20px;
+    margin-top: -38px;
+
+    height: 110px;
+}
+
+.title__header {
+    color: #0decf0;
+
+    font-size: 60px;
+
+    margin-bottom: -5px;
+}
+
+.link__header {
+    color: #e6f8fc;
+    text-decoration: none;
+
+    margin-bottom: 300px;
+}
+
+.article__container {
+    border: 2px solid black;
+
+    display: flex;
+
+    justify-content: center;
+
+    position: relative;
+}
+
+.about__earth {
+    position: absolute;
+
+    top: 0;
+    left: 0;
+}
